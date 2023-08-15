@@ -153,8 +153,6 @@ df5['TT_BOL_ATR_DZ_CC'] = df5['TT_BOL_ATR_DZ_CC'].astype('uint16')
 df5['pos_val_DZ'] = df5['pos_val_DZ'].astype('uint16')
 df5['DIAS_ATRASO_COMP_DZ'] = df5['DIAS_ATRASO_COMP_DZ'].astype('int16')
 
-print(df5.info())
-
 df5.to_parquet('C:/Users/eliciane.silva/PycharmProjects/Credit-Risk/tREC_FREQ_ATR.parquet', engine = 'pyarrow', compression = 'gzip')
 
 

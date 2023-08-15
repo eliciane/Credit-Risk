@@ -81,8 +81,6 @@ print(df1_data[['DATA_DOCUMENTO']].tail(5))
 df1[['EMPRESA', 'CONTA', 'ITEM', 'DOC_COMPENSACAO']] = df1[['EMPRESA', 'CONTA', 'ITEM', 'DOC_COMPENSACAO']].astype(str)
 df1[['EMPRESA', 'CONTA', 'ITEM', 'DOC_COMPENSACAO']] = df1[['EMPRESA', 'CONTA', 'ITEM', 'DOC_COMPENSACAO']].replace(r'\.0$', '', regex=True)
 
-print(df1)
-
 print(df1.info())
 
 

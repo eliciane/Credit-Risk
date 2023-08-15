@@ -121,7 +121,5 @@ df_DZ_RV_6['DIAS_ATRASO_COMP_DZ'] = df_DZ_RV_6['DIAS_ATRASO_COMP_DZ'].fillna(0)
 df_DZ_RV_6['CONTA'] = df_DZ_RV_6['CONTA'].astype(str)
 df_DZ_RV_6['DIAS_ATRASO_COMP_DZ'] = df_DZ_RV_6['DIAS_ATRASO_COMP_DZ'].astype(int)
 
-print(df_DZ_RV_6.info())
-
 df_DZ_RV_6.to_parquet('C:/Users/eliciane.silva/PycharmProjects/Credit-Risk/Duplicatas_Dias_Atraso.parquet', engine = 'pyarrow', compression = 'gzip')
 
