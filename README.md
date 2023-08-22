@@ -14,12 +14,12 @@
 
 4 - Calcular outras variáveis de perfil do cliente;
 
-5 - Determinar se o cliente é bom ou mau pagador;
+5 - Calcular a média de dias de atrasos nos últimos 30, 60 e 90 dias;
 
-6 - Calcular a média de dias de atrasos nos últimos 30, 60 e 90 dias;
+6 - Calcular a soma de boletos atrasados nos últimos 30, 60 e 90 dias; e
 
-7 - Calcular a soma de boletos atrasados nos últimos 30, 60 e 90 dias; e
+7 - Determinar se o cliente é bom ou mau pagador;
 
-8 - Desenvolver a Regressão Logística.
+8 - Desenvolver a Regressão Logística. Simulações com treino e teste, com dados imputados e com cut-off ótimo
 
 
